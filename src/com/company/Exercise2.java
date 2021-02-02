@@ -30,7 +30,7 @@ public class Exercise2 {
                         System.out.println("End of Exercise #1. \n");
                         break;
                     case '/':
-                        if (num2 > 0) {
+                        if (num2 != 0) {
                             System.out.println(num1 + " / " + num2 + " = " + Math.round((((num1 * 1.0) / num2)) * 100.0) / 100.0 + "\n");
                             System.out.println("End of Exercise #1. \n");
                             break;
