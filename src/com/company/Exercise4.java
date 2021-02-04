@@ -20,7 +20,21 @@ public class Exercise4 {
             }
         }
         System.out.println("Positive numbers count" + " " + countPositive);
-        System.out.println("Negative numbers count" + " " + countNegative);
-        System.out.println("The first number in aarray is repeated " + countRepeat + " times.");
+        System.out.println("Negative numbers count" + " " + countNegative+"\n");
+        System.out.println("The first number in aarray is repeated " + countRepeat + " times. \n");
+
+        //#3
+        int[] palindrome = {5, 8, 9, 7, 5};
+        int count = 0;
+        for (int i = 0; i < palindrome.length / 2; i++) {
+            if (palindrome[i] == palindrome[palindrome.length - i - 1]) {
+                count++;
+            }
+        }
+        if (count == palindrome.length / 2) {
+            System.out.println("The array is palindrome.");
+        } else {
+            System.out.println("The array is not palindrome");
+        }
     }
 }
