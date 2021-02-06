@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ef88f9ab-1894-4c4a-9adb-98d6b38fd0d5" name="Default Changelist" comment="" />
+    <list default="true" id="ef88f9ab-1894-4c4a-9adb-98d6b38fd0d5" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/com/company/Exercise5/Exercise1PrimeNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Exercise5/Exercise1PrimeNumber.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -36,25 +38,25 @@
         <entry file="file://$PROJECT_DIR$/src/com/company/Exercise4/Exercise4remove.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="238">
-              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/Exercise5/Exercise1PrimeNumber.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="82">
-              <caret line="8" column="52" lean-forward="true" selection-start-line="8" selection-start-column="52" selection-end-line="8" selection-end-column="52" />
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/company/Exercise5/Exercise1PrimeNumber.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="9" lean-forward="true" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/Exercise5/Exercise2Duplicate.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+            <state relative-caret-position="34">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -83,8 +85,8 @@
         <option value="$PROJECT_DIR$/src/com/company/Exercise3palindrome.java" />
         <option value="$PROJECT_DIR$/src/com/company/Exercise4/Exercise3palindrome.java" />
         <option value="$PROJECT_DIR$/src/com/company/Exercise4/Exercise4remove.java" />
-        <option value="$PROJECT_DIR$/src/com/company/Exercise5/Exercise1PrimeNumber.java" />
         <option value="$PROJECT_DIR$/src/com/company/Exercise5/Exercise2Duplicate.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Exercise5/Exercise1PrimeNumber.java" />
       </list>
     </option>
   </component>
@@ -99,8 +101,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -130,6 +130,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -151,7 +153,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Exercise2Duplicate">
+  <component name="RunManager" selected="Application.Exercise1PrimeNumber">
     <configuration name="Exercise1PrimeNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.company.Exercise5.Exercise1PrimeNumber" />
       <module name="Exercise2" />
@@ -219,8 +221,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Exercise2Duplicate" />
         <item itemvalue="Application.Exercise1PrimeNumber" />
+        <item itemvalue="Application.Exercise2Duplicate" />
         <item itemvalue="Application.Exercise4remove" />
         <item itemvalue="Application.Exercise1and2" />
         <item itemvalue="Application.Exercise3palindrome" />
@@ -252,11 +254,12 @@
       <workItem from="1612453820830" duration="787000" />
       <workItem from="1612466647930" duration="369000" />
       <workItem from="1612610028695" duration="383000" />
+      <workItem from="1612612219136" duration="2553000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22372000" />
+    <option name="totallyTimeSpent" value="24925000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -271,7 +274,7 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30786687" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.31240544" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -347,21 +350,21 @@
     <entry file="file://$PROJECT_DIR$/src/com/company/Exercise4/Exercise4remove.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Exercise5/Exercise1PrimeNumber.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="82">
-          <caret line="8" column="52" lean-forward="true" selection-start-line="8" selection-start-column="52" selection-end-line="8" selection-end-column="52" />
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Exercise5/Exercise2Duplicate.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Exercise5/Exercise1PrimeNumber.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="9" lean-forward="true" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
         </state>
       </provider>
     </entry>
