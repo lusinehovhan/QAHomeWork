@@ -5,7 +5,7 @@ public class Exercise3CountDuplicate {
         int m = 1;
         int n = 100;
         int sum = 0;
-        int[] array = {8, 7, 8, 7, 9, 15, 8, 8, 22};
+        int[] array = {8, 7, 8, 7, 9, 15, 8, 8, 22, 8, 7};
         if (array[0] >= m && array[array.length-1] <= n) {
         for (int i = 0; i < array.length; i++) {
                 int count = 0;
