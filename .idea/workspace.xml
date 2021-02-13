@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ef88f9ab-1894-4c4a-9adb-98d6b38fd0d5" name="Default Changelist" comment="" />
+    <list default="true" id="ef88f9ab-1894-4c4a-9adb-98d6b38fd0d5" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Exercise2/com/company/Exercise7/Exercise2Number.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Exercise2/com/company/Exercise7/Exercise2Number.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Exercise2/com/company/Exercise7/Exercise3TwoStrings.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Exercise2/com/company/Exercise7/Exercise3TwoStrings.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Exercise7/Exercise1Sum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Exercise7/Exercise1Sum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Exercise7/Exercise2Number.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Exercise7/Exercise2Number.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Exercise7/Exercise3TwoStrings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Exercise7/Exercise3TwoStrings.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,17 +38,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/Exercise6/Exersise5.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="441">
+            <state relative-caret-position="578">
               <caret line="34" column="1" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/Exercise7/Exercise1Sum.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+            <state relative-caret-position="238">
+              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
             </state>
           </provider>
         </entry>
@@ -49,8 +56,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/Exercise7/Exercise2Number.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            <state relative-caret-position="68">
+              <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -58,17 +65,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/Exercise7/Exercise3TwoStrings.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+            <state relative-caret-position="306">
+              <caret line="18" column="35" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/company/Exercise7/Exercise4Reverse.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
+            <state relative-caret-position="204">
+              <caret line="12" column="13" lean-forward="true" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -155,9 +162,9 @@
         <option value="$PROJECT_DIR$/src/com/company/Exercise6/Exercise4.java" />
         <option value="$PROJECT_DIR$/src/com/company/Exercise6/Exercise2.java" />
         <option value="$PROJECT_DIR$/src/com/company/Exercise6/Exersise5.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Exercise7/Exercise4Reverse.java" />
         <option value="$PROJECT_DIR$/src/com/company/Exercise7/Exercise2Number.java" />
         <option value="$PROJECT_DIR$/src/com/company/Exercise7/Exercise3TwoStrings.java" />
-        <option value="$PROJECT_DIR$/src/com/company/Exercise7/Exercise4Reverse.java" />
         <option value="$PROJECT_DIR$/src/com/company/Exercise7/Exercise1Sum.java" />
       </list>
     </option>
@@ -173,8 +180,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -204,6 +209,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -225,7 +232,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Exercise1Sum">
+  <component name="RunManager" selected="Application.Exercise2Number">
     <configuration name="Exercise1Sum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.company.Exercise7.Exercise1Sum" />
       <module name="Exercise2" />
@@ -293,10 +300,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Exercise1Sum" />
-        <item itemvalue="Application.Exercise4Reverse" />
-        <item itemvalue="Application.Exercise3TwoStrings" />
         <item itemvalue="Application.Exercise2Number" />
+        <item itemvalue="Application.Exercise1Sum" />
+        <item itemvalue="Application.Exercise3TwoStrings" />
+        <item itemvalue="Application.Exercise4Reverse" />
         <item itemvalue="Application.Exersise5" />
       </list>
     </recent_temporary>
@@ -340,11 +347,13 @@
       <workItem from="1612978288824" duration="307000" />
       <workItem from="1613025360445" duration="125000" />
       <workItem from="1613051458760" duration="18179000" />
+      <workItem from="1613144122254" duration="5615000" />
+      <workItem from="1613193493143" duration="408000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="74240000" />
+    <option name="totallyTimeSpent" value="80263000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -359,7 +368,7 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.38199696" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.39409986" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -369,7 +378,7 @@
       <window_info id="Learn" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.29623568" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.27168575" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -481,6 +490,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Exercise6/Exersise5.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="34" column="1" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Exercise6/Exercise4.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -516,38 +532,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Exercise6/Exersise5.java">
+    <entry file="file://$PROJECT_DIR$/src/com/company/Exercise7/Exercise1Sum.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="34" column="1" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Exercise7/Exercise3TwoStrings.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Exercise7/Exercise4Reverse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
+        <state relative-caret-position="238">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Exercise7/Exercise2Number.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        <state relative-caret-position="68">
+          <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Exercise7/Exercise1Sum.java">
+    <entry file="file://$PROJECT_DIR$/src/com/company/Exercise7/Exercise3TwoStrings.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        <state relative-caret-position="306">
+          <caret line="18" column="35" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Exercise7/Exercise4Reverse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="13" lean-forward="true" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
         </state>
       </provider>
     </entry>
