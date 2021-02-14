@@ -31,10 +31,9 @@ public class Exercise4SumStrings {
             }
             number2 = number2 + res2 * result2;
         }
-        int finalResult = number1 + number2;
         System.out.println("Number 2: " + number2);
-        System.out.print("The sum of two String numbers will be: " +  finalResult);
-        System.out.println();
+        int finalResult = number1 + number2;
+
         int temp;
         int count3= 0;
         temp = finalResult;
@@ -53,7 +52,6 @@ public class Exercise4SumStrings {
             arrayNumber[w] = array [i];
             w++;
         }
-        System.out.println();
         String strResult = "";
         char [] digitCh = {'0','1','2','3','4','5','6','7','8','9'};
         for (int i = 0; i < arrayNumber.length; i++) {
@@ -64,6 +62,6 @@ public class Exercise4SumStrings {
                 }
             }
         }
-        System.out.println(strResult);
+        System.out.println( "The sum of two String numbers will be: " +  strResult);
     }
 }
