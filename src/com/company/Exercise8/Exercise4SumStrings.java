@@ -32,9 +32,6 @@ public class Exercise4SumStrings {
             number2 = number2 + res2 * result2;
         }
         System.out.println("Number 2: " + number2);
-
-        int finalResult = number1 + number2;
-
-        System.out.println( "The sum of two String numbers will be: " +  finalResult);
+        System.out.println( "The sum of two String numbers will be: " +  (number1 + number2));
     }
 }
