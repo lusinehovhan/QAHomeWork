@@ -2,8 +2,8 @@ package com.company.Exercise8;
 
 public class Exercise4SumStrings {
     public static void main(String[] args) {
-        String s1 = "451";
-        String s2 = "300";
+        String s1 = "500";
+        String s2 = "1250";
         int count1 = 0;
         int count2 = 0;
         int result1 = 1;
@@ -32,36 +32,9 @@ public class Exercise4SumStrings {
             number2 = number2 + res2 * result2;
         }
         System.out.println("Number 2: " + number2);
+
         int finalResult = number1 + number2;
 
-        int temp;
-        int count3= 0;
-        temp = finalResult;
-        while (finalResult>0){
-            finalResult/=10;
-            ++count3;
-        }
-        int [] array = new int[count3];
-        for (int i = 0; i < array.length; i++) {
-            array[i] = temp%10;
-            temp = temp/10;
-        }
-        int[] arrayNumber = new int[array.length];
-        int w = 0;
-        for (int i = array.length-1; i >=0; i--) {
-            arrayNumber[w] = array [i];
-            w++;
-        }
-        String strResult = "";
-        char [] digitCh = {'0','1','2','3','4','5','6','7','8','9'};
-        for (int i = 0; i < arrayNumber.length; i++) {
-            for (int j = 0; j < digitCh.length; j++) {
-                int digit = digitCh[j] - '0';
-                if(arrayNumber[i] == digit){
-                    strResult = strResult + digitCh[j];
-                }
-            }
-        }
-        System.out.println( "The sum of two String numbers will be: " +  strResult);
+        System.out.println( "The sum of two String numbers will be: " +  finalResult);
     }
 }
