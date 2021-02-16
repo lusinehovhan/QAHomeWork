@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef88f9ab-1894-4c4a-9adb-98d6b38fd0d5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/com/company/Exercise9/Exercise3Fibonacci.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Exercise9/Exercise3Fibonacci.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Exercise9/Exercise2String.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Exercise9/Exercise2String.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -48,11 +48,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/Exercise9/Exercise3Fibonacci.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="458">
-              <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+            <state relative-caret-position="51">
+              <caret line="6" column="38" lean-forward="true" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="38" />
               <folding>
                 <element signature="e#109#110#0" expanded="true" />
                 <element signature="e#136#137#0" expanded="true" />
@@ -65,16 +65,16 @@
         <entry file="file://$PROJECT_DIR$/src/com/company/Exercise9/Exercise4Detect.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="272">
-              <caret line="16" column="21" lean-forward="true" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+              <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/company/Exercise9/Exercise2String.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
+            <state relative-caret-position="204">
+              <caret line="12" column="42" lean-forward="true" selection-start-line="12" selection-start-column="42" selection-end-line="12" selection-end-column="42" />
             </state>
           </provider>
         </entry>
@@ -171,11 +171,11 @@
         <option value="$PROJECT_DIR$/src/com/company/Exercise8/Exercise3EnterNumber.java" />
         <option value="$PROJECT_DIR$/src/com/company/Exercise8/Exercise4SumStrings.java" />
         <option value="$PROJECT_DIR$/src/com/company/Exercise9/Exercise1Average.java" />
-        <option value="$PROJECT_DIR$/src/com/company/Exercise9/Exercise2String.java" />
         <option value="$PROJECT_DIR$/src/com/company/Exercise9/Excersise4Detect.java" />
         <option value="$PROJECT_DIR$/src/com/company/Exercise9/Excercise4Detect.java" />
         <option value="$PROJECT_DIR$/src/com/company/Exercise9/Exercise4Detect.java" />
         <option value="$PROJECT_DIR$/src/com/company/Exercise9/Exercise3Fibonacci.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Exercise9/Exercise2String.java" />
       </list>
     </option>
   </component>
@@ -242,7 +242,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Exercise2String">
     <configuration name="Exercise1Average" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.company.Exercise9.Exercise1Average" />
       <module name="Exercise2" />
@@ -310,10 +310,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Exercise4Detect" />
-        <item itemvalue="Application.Exercise3Fibonacci" />
         <item itemvalue="Application.Exercise2String" />
         <item itemvalue="Application.Exercise1Average" />
+        <item itemvalue="Application.Exercise4Detect" />
+        <item itemvalue="Application.Exercise3Fibonacci" />
         <item itemvalue="Application.Exercise4SumStrings" />
       </list>
     </recent_temporary>
@@ -368,11 +368,12 @@
       <workItem from="1613379220114" duration="13492000" />
       <workItem from="1613470457913" duration="341000" />
       <workItem from="1613472470503" duration="5619000" />
+      <workItem from="1613481469863" duration="1362000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="127947000" />
+    <option name="totallyTimeSpent" value="129309000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -387,7 +388,7 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26928896" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2730711" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -579,13 +580,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Exercise9/Exercise2String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Exercise5/Exercise1PrimeNumber.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -621,21 +615,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Exercise9/Exercise4Detect.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="21" lean-forward="true" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Exercise9/Exercise3Fibonacci.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="458">
-          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+        <state relative-caret-position="51">
+          <caret line="6" column="38" lean-forward="true" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="38" />
           <folding>
             <element signature="e#109#110#0" expanded="true" />
             <element signature="e#136#137#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Exercise9/Exercise4Detect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Exercise9/Exercise2String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="42" lean-forward="true" selection-start-line="12" selection-start-column="42" selection-end-line="12" selection-end-column="42" />
         </state>
       </provider>
     </entry>

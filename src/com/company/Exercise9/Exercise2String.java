@@ -8,12 +8,10 @@ public class Exercise2String {
         }
     }
     static void repeat (String s){
-        char ch = s.charAt(0);
-        for (int j = 1; j < s.length(); j++) {
-            if (ch == s.charAt(j)) {
-                System.out.println(s);
-                break;
+            for (int i = 1; i < s.length(); i++) {
+                if (s.charAt(0) == s.charAt(i)) {
+                    System.out.println(s);
+                }
             }
         }
     }
-}
