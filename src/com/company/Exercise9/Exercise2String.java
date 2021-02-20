@@ -2,7 +2,7 @@ package com.company.Exercise9;
 
 public class Exercise2String {
     public static void main(String[] args) {
-        String [] str = {"BMW", "VOLVO", "TOYOTA", "JIGULI"};
+        String [] str = {"BMWB", "VOLVO", "TOYOTA", "JIGULI"};
         for(String ss: str){
             repeat(ss);
         }
