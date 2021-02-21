@@ -5,7 +5,7 @@ public class Exercise2Vararg {
         System.out.println("The sum is: " + funcVararg(5.5, 6.9, 7.1));
         System.out.println("The sum is: " + funcVararg(2.45, 4.8));
         System.out.println("The sum is: " + funcVararg(1, 1, 1, 1, 1, 20.5684));
-        System.out.println("The sum is: " + funcVararg(8.5));
+        System.out.println("The sum is: " + funcVararg(0, -2.5, -4));
 
     }
     static int funcVararg(double... args) {

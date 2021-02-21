@@ -15,11 +15,8 @@ public class Exercise1Substring {
     }
     static String partString(String str, int start, int end){
         String str1 = "";
-        for (int i = start; i <str.length() ; i++) {
-            while(i <= end){
+        for (int i = start; i <= end ; i++) {
                 str1 = str1 + str.charAt(i);
-               break;
-            }
         }
         return str1;
     }
