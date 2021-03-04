@@ -14,13 +14,11 @@ public class Circle {
         radius = r;
     }
     public double area(){
-        double p = 3.14;
-        double areaCircle = p * radius * radius;
+        double areaCircle = 3.14 * radius * radius;
         return areaCircle;
     }
     public double perimeter(){
-        double p = 3.14;
-        double perimeterCircle = 2 * p * radius;
+        double perimeterCircle = 2 * 3.14 * radius;
         return perimeterCircle;
     }
 
