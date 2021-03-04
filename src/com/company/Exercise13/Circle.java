@@ -1,7 +1,7 @@
 package com.company.Exercise13;
 
 public class Circle {
-    private double radius = 7.7;
+    private double radius;
     private int x = 5;
     private int y = 3;
 
