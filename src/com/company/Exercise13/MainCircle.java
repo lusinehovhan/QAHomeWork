@@ -2,8 +2,8 @@ package com.company.Exercise13;
 
 public class MainCircle {
     public static void main(String[] args) {
-        Circle cr1 = new Circle(5.5, 4, 8);
-        Circle cr2 = new Circle(3.8);
+        Circle cr1 = new Circle(-5.5, 4, 8);
+        Circle cr2 = new Circle(-3.8);
         cr1.print();
         System.out.println();
         cr2.print();

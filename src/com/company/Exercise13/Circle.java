@@ -6,12 +6,16 @@ public class Circle {
     private int y = 3;
 
     public Circle (double r, int a, int b){
-        radius = r;
+        if(r >= 0) {
+            radius = r;
+        }
         x = a;
         y = b;
     }
     public Circle (double r){
-        radius = r;
+        if(r >= 0) {
+            radius = r;
+        }
     }
     public double area(){
         double areaCircle = 3.14 * radius * radius;
