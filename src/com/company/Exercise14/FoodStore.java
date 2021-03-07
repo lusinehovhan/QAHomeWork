@@ -6,6 +6,7 @@ public class FoodStore {
     private int shelfLifeDays;
     private double priceKg;
 
+
 public FoodStore(String productType, String productName, int shelfLifeDays, double priceKg){
     this.productType = productType;
     this.productName = productName;
@@ -52,6 +53,7 @@ public FoodStore(String productType, String productName, int shelfLifeDays, doub
         this.priceKg = -1;
     }
     }
+
     public String print(){
     String printAll = "Product Type: " + productType + "\n"
             + "Product Name: " + productName + "\n"
