@@ -38,11 +38,9 @@ public class Author {
     public Book getBook(String name) {
         for (int i = 0; i < book.length; i++) {
             if (book[i].getTitle().equals(name)) {
-                book[i].printBook();
                 return book[i];
             }
         }
-        System.out.println("The book is not found \n");
        return null;
     }
 }
