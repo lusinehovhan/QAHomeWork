@@ -18,10 +18,10 @@ public class BookMain {
         Author au4 = new Author("Anton", "Chekhov", new Book[]{bk6, bk7, bk8});
 
 
-       au1.getBook("Sherlock Holmes").printBook();
-        au4.getBook("The Duel").printBook();
-        au2.getBook("Hercule Poirot");
-        System.out.println(au3.getBook("War abd Pea"));
+       au1.getBook("Sherlock Holmes");
+       au4.getBook("The Due");
+       au2.getBook("Hercule Poirot");
+       au3.getBook("War abd Pea");
     }
 
 }
