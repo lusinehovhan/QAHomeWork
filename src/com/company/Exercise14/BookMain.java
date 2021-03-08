@@ -16,34 +16,36 @@ public class BookMain {
         Author au3 = new Author("Lev", "Tolstoy", new Book[]{bk3, bk4});
         Author au4 = new Author("Anton", "Chekhov", new Book[]{bk6, bk8, bk5});
 
-
-        Book book4 =  au4.getBook("The Due");
+        String checkName4 = "The Due";
+        Book book4 =  au4.getBook(checkName4);
         if(book4!=null){
             book4.printBook();
         }else {
-            System.out.println("The book with name " + "'" + Author.noName + "'" + " is not found \n");
+            System.out.println("The book with name " + "'" + checkName4 + "'" + " is not found \n");
         }
 
-        Book book1 =  au1.getBook("Sherlock Hol");
+        String checkName1 = "Sherlock Hol";
+        Book book1 =  au1.getBook(checkName1);
         if(book1!=null){
             book1.printBook();
         }else {
-            System.out.println("The book with name " + "'" + Author.noName + "'" + " is not found \n");
+            System.out.println("The book with name " + "'" + checkName1 + "'" + " is not found \n");
         }
 
-        Book book2 =  au2.getBook("Hercule Poirot");
+        String checkName2 = "Hercule Poirot";
+        Book book2 =  au2.getBook(checkName2);
         if(book2!=null){
             book2.printBook();
         }else {
-            System.out.println("The book with name " + "'" + Author.noName + "'" + " is not found \n");
+            System.out.println("The book with name " + "'" + checkName2 + "'" + " is not found \n");
         }
 
-        Book book3 =au3.getBook("War abd Pea");
+        String checkName3 = "War abd Pea";
+        Book book3 =au3.getBook(checkName3);
         if(book3!=null){
             book3.printBook();
         }else {
-            System.out.println("The book with name " + "'" + Author.noName + "'" + " is not found \n");
+            System.out.println("The book with name " + "'" + checkName3 + "'" + " is not found \n");
         }
     }
-
 }

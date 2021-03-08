@@ -4,7 +4,6 @@ public class Author {
     private Book[] book;
     private String name;
     private String surName;
-    public static String noName;
 
     public Author(String name, String surName, Book[] book) {
         setName(name);
@@ -34,7 +33,6 @@ public class Author {
         this.surName = surName;
     }
         public Book getBook(String searchName) {
-        noName = searchName;
         for (int i = 0; i < book.length; i++) {
             if (book[i].getTitle().equals(searchName)) {
                 return book[i];
