@@ -17,32 +17,32 @@ public class BookMain {
         Author au4 = new Author("Anton", "Chekhov", new Book[]{bk6, bk8, bk5});
 
 
-        Book book4 =  au4.getBook("The Duel");
+        Book book4 =  au4.getBook("The Due");
         if(book4!=null){
             book4.printBook();
         }else {
-            System.out.println("The book is not found \n");
+            System.out.println("The book with name " + "'" + Author.noName + "'" + " is not found \n");
         }
 
         Book book1 =  au1.getBook("Sherlock Hol");
         if(book1!=null){
             book1.printBook();
         }else {
-            System.out.println("The book is not found \n");
+            System.out.println("The book with name " + "'" + Author.noName + "'" + " is not found \n");
         }
 
         Book book2 =  au2.getBook("Hercule Poirot");
         if(book2!=null){
             book2.printBook();
         }else {
-            System.out.println("The book is not found \n");
+            System.out.println("The book with name " + "'" + Author.noName + "'" + " is not found \n");
         }
 
         Book book3 =au3.getBook("War abd Pea");
         if(book3!=null){
             book3.printBook();
         }else {
-            System.out.println("The book is not found \n");
+            System.out.println("The book with name " + "'" + Author.noName + "'" + " is not found \n");
         }
     }
 

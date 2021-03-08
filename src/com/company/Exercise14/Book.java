@@ -6,35 +6,35 @@ public class Book {
     private double price;
 
     public Book(String title, int yearPub, double price) {
-        this.title = title;
-        this.yearPub = yearPub;
-        this.price = price;
+        setTitle(title);
+        setYearPub(yearPub);
+        setPrice(price);
     }
 
     public String getTitle() {
-        return title;
+    return title;
     }
-
     public void setTitle(String title) {
-        this.title = title;
+    if(title.length() > 0) {
+    this.title = title;
+}
     }
-
     public int getYearPub() {
         return yearPub;
     }
-
     public void setYearPub(int yearPub) {
-        this.yearPub = yearPub;
+        if(yearPub > 1900 && yearPub < 2021) {
+            this.yearPub = yearPub;
+        }
     }
-
     public double getPrice() {
         return price;
     }
-
     public void setPrice(double price) {
-        this.price = price;
+        if(price > 0) {
+            this.price = price;
+        }
     }
-
     public void printBook() {
             System.out.println("Book Title: " + title + "\n"
                     + "Book Year Published: " + yearPub + "\n"
