@@ -5,7 +5,7 @@ public class Book {
     private int yearPub;
     private double price;
 
-    public Book(String title, int yearPub, double price){
+    public Book(String title, int yearPub, double price) {
         this.title = title;
         this.yearPub = yearPub;
         this.price = price;
@@ -34,10 +34,10 @@ public class Book {
     public void setPrice(double price) {
         this.price = price;
     }
-    public void printBook(){
-        System.out.println("Book Title: " + title + "\n"
-                + "Book Year Published: " + yearPub + "\n"
-                + "Book Price: " + price+"\n");
-    }
 
+    public void printBook() {
+            System.out.println("Book Title: " + title + "\n"
+                    + "Book Year Published: " + yearPub + "\n"
+                    + "Book Price: " + price + "\n");
+    }
 }

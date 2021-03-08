@@ -1,11 +1,11 @@
 package com.company.Exercise14;
 
 public class Author {
-    private Book [] book;
+    private Book[] book;
     private String name;
     private String surName;
 
-    public Author(String name, String surName, Book [] book) {
+    public Author(String name, String surName, Book[] book) {
         this.name = name;
         this.surName = surName;
         this.book = book;
@@ -36,17 +36,12 @@ public class Author {
     }
 
     public Book getBook(String name) {
-        Book bk = null;
         for (int i = 0; i < book.length; i++) {
             if (book[i].getTitle().equals(name)) {
-                bk = book[i];
-                bk.printBook();
+                return book[i];
             }
-            }
-        if(bk==null){
-            System.out.println("null");
         }
-        return bk;
+       return null;
     }
 }
 
