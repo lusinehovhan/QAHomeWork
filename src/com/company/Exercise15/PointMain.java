@@ -18,8 +18,8 @@ public class PointMain {
 
         ThreeDPoint three3 = new ThreeDPoint(6, 2, 1);
         three3.print3D();
-        ThreeDPoint three4 = new ThreeDPoint(4, 2, 5);
-        System.out.println("The distance between points three3(6, 2, 1) and three4(4, 2, 5) is: " + three3.distance(three4));
+        ThreeDPoint three4 = new ThreeDPoint(4, 2, 7);
+        System.out.println("The distance between points three3(6, 2, 1) and three4(4, 2, 7) is: " + three3.distance(three4));
 
     }
 }

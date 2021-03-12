@@ -1,20 +1,16 @@
 package com.company.Exercise15;
 
 public class Animal {
-    protected String type;
-    protected String classAnimal;
-    protected String species;
-    protected int averageLifespan;
+    private String type;
+    private String classAnimal;
 
     public Animal(){
 
     }
 
-    public Animal(String type, String classAnimal, String species, int averageLifespan) {
+    public Animal(String type, String classAnimal) {
         this.type = type;
         this.classAnimal = classAnimal;
-        this.species = species;
-        this.averageLifespan = averageLifespan;
     }
 
     public String getType() {
@@ -33,27 +29,8 @@ public class Animal {
         this.classAnimal = classAnimal;
     }
 
-    public String getSpecies() {
-        return species;
-    }
-
-    public void setSpecies(String species) {
-        this.species = species;
-    }
-
-    public int getAverageLifespan() {
-        return averageLifespan;
-    }
-
-    public void setAverageLifespan(int averageLifespan) {
-        this.averageLifespan = averageLifespan;
-    }
-
-    public void printAnimal(){
+    public void printAllAnimal(){
         System.out.println("Animal Type: " + type + "\n"
-                + "Animal class: " + classAnimal + "\n"
-                + "Species: " + species + "\n"
-                + "Average Lifspan: " + averageLifespan);
+                + "Animal class: " + classAnimal);
     }
-
 }

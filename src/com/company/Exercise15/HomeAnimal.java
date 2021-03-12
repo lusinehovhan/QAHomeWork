@@ -1,29 +1,31 @@
 package com.company.Exercise15;
 
-public class Cat extends Animal {
-    protected String species;
-    protected int averageLifespan;
+import java.util.Arrays;
 
-    public Cat(){
+public class HomeAnimal extends Animal {
+    private String [] species;
+    private int averageLifespan;
+
+    public HomeAnimal(){
 
     }
 
-    public Cat(String species, int averageLifespan) {
+    public HomeAnimal(String[] species, int averageLifespan) {
         this.species = species;
         this.averageLifespan = averageLifespan;
     }
 
-    public Cat(String type, String classAnimal, String species, int averageLifespan) {
+    public HomeAnimal(String type, String classAnimal, String[] species, int averageLifespan) {
         super(type, classAnimal);
         this.species = species;
         this.averageLifespan = averageLifespan;
     }
 
-    public String getSpecies() {
+    public String[] getSpecies() {
         return species;
     }
 
-    public void setSpecies(String species) {
+    public void setSpecies(String[] species) {
         this.species = species;
     }
 
@@ -35,15 +37,20 @@ public class Cat extends Animal {
         this.averageLifespan = averageLifespan;
     }
 
-    public void printCatAnimal(){
-        printAnimal();
-        System.out.println("Name: " + name + "\n"
-        + "Fur color: " + furColor + "\n"
-        + "Age: " + age + "\n");
+    public void printAnimal(){
+        printAllAnimal();
+        System.out.print("Species: ");
+        for (int i = 0; i <species.length ; i++) {
+            System.out.print(species[i]+", ");
+        }
+        System.out.println("\nAverage Lifespan " + averageLifespan + "\n");
     }
-    public void printCat(){
-        System.out.println("Name: " + name + "\n"
-                + "Fur color: " + furColor + "\n"
-                + "Age: " + age + "\n");
+
+    public void printHomeAnimal(){
+        System.out.print("Species: ");
+        for (int i = 0; i <species.length ; i++) {
+            System.out.print(species[i]+", ");
+        }
+        System.out.println("\nAverage Lifespan " + averageLifespan + "\n");
     }
 }

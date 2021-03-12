@@ -1,7 +1,7 @@
 package com.company.Exercise15;
 
 public class ThreeDPoint extends TwoDPoint {
-protected double z;
+    private double z;
 
     public ThreeDPoint(double z) {
         this.z = z;
@@ -26,8 +26,8 @@ protected double z;
         System.out.println("z = "+ z);
     }
     public double distance(ThreeDPoint a){
-        double disX = a.x - super.x;
-        double disY = a.y - super.y;
+        double disX = a.getX() - super.getX();
+        double disY = a.getY() - super.getX();
         double disZ = a.z - this.z;
         return Math.sqrt(disX * disX + disY * disY + disZ *disZ);
     }

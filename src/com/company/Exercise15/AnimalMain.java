@@ -2,18 +2,19 @@ package com.company.Exercise15;
 
 public class AnimalMain {
     public static void main(String[] args) {
-        Animal an1 = new Animal("Mammals", "Wolf", "Devon Rex", 14);
-        Animal an2 = new Animal("Bird", "Owl", "Barn", 25);
-        Animal an3 = new Animal("Fish", "Goldfish", "Fantail", 15);
-        an2.printAnimal();
+        Animal an1 = new Animal("Mammals", "Wolf");
+        Animal an2 = new Animal("Bird", "Owl");
+        Animal an3 = new Animal("Fish", "Goldfish");
+        an2.printAllAnimal();
         System.out.println();
 
-        Cat cat1 = new Cat("Mammals", "Cat", "Devon Rex", 12, "Myau", "Grey", 5);
-        Cat cat2 = new Cat("Mammals", "Cat", "Abyssinian", 16, "Fredy", "Copper", 3);
-        Cat cat3 = new Cat("Mary", "White", 10);
-        Cat cat4 = new Cat();
+        HomeAnimal hom1 = new HomeAnimal("Mammals", "Cat", new String[]{"Sphynx", "Abyssinian", "Persian" }, 15);
+        HomeAnimal hom2 = new HomeAnimal("Reptiles.", "Turtles", new String[]{"Red Eared", "Sideneck", "Musk"}, 35);
+        HomeAnimal hom3 = new HomeAnimal(new String[]{"Wood Duck", "American Wigeon"}, 10);
+        HomeAnimal hom4 = new HomeAnimal();
 
-        cat1.printCatAnimal();
-        cat3.printCat();
+        hom1.printAnimal();
+        hom2.printAnimal();
+        hom3.printHomeAnimal();
     }
 }

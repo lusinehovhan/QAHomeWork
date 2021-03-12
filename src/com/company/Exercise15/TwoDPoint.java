@@ -1,8 +1,8 @@
 package com.company.Exercise15;
 
 public class TwoDPoint {
-    protected double x;
-    protected double y;
+    private double x;
+    private double y;
 
    public TwoDPoint(){
 
