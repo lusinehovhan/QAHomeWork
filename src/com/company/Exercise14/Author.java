@@ -27,11 +27,14 @@ public class Author {
         }
     }
     public String getSurName() {
+
         return surName;
     }
     public void setSurName(String surName) {
+
         this.surName = surName;
     }
+
         public Book getBook(String searchName) {
         for (int i = 0; i < book.length; i++) {
             if (book[i].getTitle().equals(searchName)) {
